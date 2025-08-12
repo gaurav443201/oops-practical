@@ -21,7 +21,7 @@ class Product {
 
     // Overloaded constructor with default quantity and price
     public Product(String name) {
-        this(name, 10, 0.0);
+        this(name, 1, 0.0);
     }
 
     // Getters and setters
@@ -106,8 +106,8 @@ public class ECommerceProcessing {
         }
 
         System.out.println("----------------------------------------");
-        System.out.printf("Grand Total: %.2f\n", grandTotal);
-        System.out.printf("Discount: %.2f\n", discount);
-        System.out.printf("Net Total: %.2f\n", netTotal);
+        System.out.println("Grand Total: " +grandTotal);
+        System.out.println("Discount: " +discount);
+        System.out.println("Net Total:" +netTotal);
     }
 }
